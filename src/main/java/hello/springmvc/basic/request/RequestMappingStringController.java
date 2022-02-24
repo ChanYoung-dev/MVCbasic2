@@ -67,6 +67,7 @@ public class RequestMappingStringController {
 
     /**
      * getBody() 조차 쓰기 싫다면?
+     * @RequestBody 사용
      * 이렇게 메시지 바디를 직접 조회하는 기능은
      * 요청 파라미터를 조회하는 @RequestParam , @ModelAttribute 와는 전혀 관계가 없다.
      */
